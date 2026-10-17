@@ -1,0 +1,36 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "Mock API"
+customSteps: |
+  open url "https://reqres.in/"
+  hover over "Send Request"
+
+  mock api call GET "https://reqres.in/api/users/2" returning body "{\"data\":{\"id\":2,\"email\":\"mock.user@testrigor.com\",\"first_name\":\"Garry\",\"last_name\":\"Peter\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},\"support\":{\"url\":\"https://testrigor.com\",\"text\":\"This response was mocked by testRigor.\"},\"_meta\":{\"powered_by\":\"testRigor Mock\",\"variant\":\"mock_response\",\"message\":\"Mock API response returned successfully.\",\"context\":\"mock_success\"}}" and with http code 200
+
+  click "Send Request" using AI
+
+  grab value of "(?<=\"first_name\": \")[^\"]+" and save it as "firstName"
+  grab value of "(?<=\"last_name\": \")[^\"]+" and save it as "lastName"
+
+  open url "https://www.saucedemo.com/"
+  enter "standard_user" into Username
+  enter "secret_sauce" into Password
+  click "Login"
+
+  click "Add to cart" below the "Sauce Labs Backpack"
+  click button roughly above the "Name (A to Z)"
+  click "Checkout"
+
+  enter saved value "firstName" into "First Name"
+  enter saved value "lastName" into "Last Name"
+  enter "222-233-32323" into "Zip/Postal Code"
+
+  click "Continue button" using ai
+  scroll down
+  click "Finish button" using ai
+  check that page contains "Thank you for your order!"
+  scroll up
+
+  click "Open Menu"
+  click "Logout"
+  check that page contains "Login"
+testCaseUuid: "3435a95d-01ce-49cb-af87-cfea7b603b3f"

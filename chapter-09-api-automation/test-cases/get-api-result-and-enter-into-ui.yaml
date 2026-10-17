@@ -1,0 +1,7 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "Get API Result and Enter into UI"
+customSteps: |
+  open url "https://testrigorplayground.netlify.app/textareaMultiline"
+  call api get "https://tr-playground-api.onrender.com/code" and get "$.code" and save it as "getResponse" and then check that http code is 200
+  enter saved value "getResponse" into input
+testCaseUuid: "caa3d4d7-9af8-4497-bf1d-0f5003fbbed8"

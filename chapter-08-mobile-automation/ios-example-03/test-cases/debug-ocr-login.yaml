@@ -1,0 +1,17 @@
+# Suite: tRChapters 8 tR iOs Mobile Automation Example -03 (cwHukcm4M9fp6Hkpd)
+# Test case name: "debug"
+customSteps: |
+  click "More" using OCR only
+  click "Login" using OCR only
+  take screenshot
+  wait up to 10 sec until page contains "User name"
+  take screenshot
+  enter "bob@example.com" into "User Name"
+  take screenshot
+  enter "10203040" into input "Password"
+  take screenshot
+  click "Login button" using AI
+  take screenshot
+  wait 5 sec
+  take screenshot
+testCaseUuid: "78583af9-861d-4233-9ff4-4219bdecd38b"

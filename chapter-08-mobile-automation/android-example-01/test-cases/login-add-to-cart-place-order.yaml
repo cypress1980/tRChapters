@@ -1,0 +1,21 @@
+# Suite: tRChapters 8 tR Android Mobile Automation Example -01 (E6xmsGLoubPG6god8)
+# Test case name: "Login, Add First Available Product to Cart, and Successfully Place an Order"
+customSteps: |
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "LOGIN"
+  click "ADD TO CART" below the "Sauce Labs Backpack"
+  click "test-Cart"
+  check that page contains "Sauce Labs Backpack"
+  check that page contains "$29.99"
+  check that page contains "REMOVE"
+  click "CHECKOUT"
+  enter "John" into "First Name"
+  enter "Doe" into "Last Name"
+  enter "12345" into "Zip/Postal Code"
+  click "CONTINUE"
+  scroll down
+  click "FINISH"
+  check that page contains "CHECKOUT: COMPLETE!"
+labels: [generated-by-ai]
+testCaseUuid: "b610c888-8cf1-4d91-90d7-edaacbd27cf6"

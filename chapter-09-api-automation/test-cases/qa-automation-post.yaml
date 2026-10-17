@@ -1,0 +1,5 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "QA Automation POST"
+customSteps: |
+  call api post "https://api.qaautomationlabs.com/v1/flights" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"origin\":\"JFK\",\"destination\":\"LHR\",\"departure\":\"2027-01-01T08:30:00Z\"}" and get "$.data.origin" and save it as "createdNewRec" and then check that http code is 201
+testCaseUuid: "c917a409-d6f9-4826-a756-f2e198b1efa2"

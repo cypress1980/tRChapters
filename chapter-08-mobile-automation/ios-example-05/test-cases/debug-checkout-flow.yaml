@@ -1,0 +1,21 @@
+# Suite: tRChapters 8 tR iOS Mobile Automation Example -05 (MS56ps8p2r4HN2wFR)
+# Test case name: "debug"
+customSteps: |
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "LOGIN"
+  click "ADD TO CART" below the "Sauce Labs Backpack"
+  click "cart icon" using ai
+  check that page contains "Sauce Labs Backpack"
+  check that page contains "$29.99"
+  check that page contains "REMOVE"
+  click "CHECKOUT" using ai
+  enter "John" into "First Name" using ai
+  enter "Doe" into "Last Name"
+  enter "12345" into "Zip/Postal Code"
+  click "CONTINUE" using ai
+  scroll down
+  click "FINISH" using ai
+  check that page contains "CHECKOUT: COMPLETE!"
+  check that page contains "THANK YOU FOR YOU ORDER"
+testCaseUuid: "42379b96-f5be-4905-851a-2dba9aa94a09"

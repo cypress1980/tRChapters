@@ -1,0 +1,5 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "GET API"
+customSteps: |
+  call api get "https://tr-playground-api.onrender.com/code" and save it as "getResponse" and then check that http code is 200
+testCaseUuid: "da155e4d-bc5c-480e-a3bf-c7cb325087eb"

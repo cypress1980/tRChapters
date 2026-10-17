@@ -1,0 +1,10 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "DELETE API"
+customSteps: |
+  call api delete "https://tr-playground-api.onrender.com/delete" with headers "Content-Type:application/json" and "Accept:application/json" and body text starting from next line and ending with [END]
+  {
+    "message": "Hello world"
+  }
+  [END] and get "$.message" and save it as "deleteResponseMessage" and then check that http code is 200
+  check that saved value "deleteResponseMessage" itself is equal to "Resource deleted"
+testCaseUuid: "682f4b35-e072-4861-82af-3f23072d7d0f"

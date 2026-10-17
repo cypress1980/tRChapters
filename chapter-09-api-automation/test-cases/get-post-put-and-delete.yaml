@@ -1,0 +1,11 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "GET POST PUT And DELETE"
+customSteps: |
+  call api get "https://api.qaautomationlabs.com/v1/flights?page=1&limit=10" and save it as "getResponse" and then check that http code is 200
+
+  call api post "https://api.qaautomationlabs.com/v1/flights" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"origin\":\"JFK\",\"destination\":\"LHR\",\"departure\":\"2027-01-01T08:30:00Z\"}" and get "$.data.origin" and save it as "createdNewRec" and then check that http code is 201
+
+  call api put "https://api.qaautomationlabs.com/v1/flights/1" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"origin\":\"DELHI\",\"destination\":\"LONDON\",\"departure\":\"2027-02-03T08:30:00Z\"}" and get "$.data.origin" and save it as "createdNewRec" and then check that http code is 200
+
+  call api delete "https://api.qaautomationlabs.com/v1/flights/1" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"id\": \"1\"}" and then check that http code is 204
+testCaseUuid: "8342d9b8-6d1b-4c83-b6d9-eb85f71005bb"

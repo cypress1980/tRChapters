@@ -1,0 +1,13 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "POST API"
+customSteps: |
+  // call api post "https://tr-playground-api.onrender.com/echo" with headers "Content-Type:application/json" and "Accept:application/json" and body text starting from next line and ending with [END]
+  // {
+  //   "message": "Hello world"
+  // }
+  // [END] and then check that http code is 200
+
+  //call api post "http://dummy.restapiexample.com/api/v1/create" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"name\":\"James\",\"salary\":\"123\",\"age\":\"32\"}" and get "$.data.name" and save it as "createdName" and then check that http code is 200
+
+  call api post "https://httpbin.org/post" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"name\":\"James\",\"salary\":\"123\",\"age\":\"32\"}" and get "$.json.name" and save it as "createdName" and then check that http code is 200
+testCaseUuid: "681f3dae-573f-44a0-ab9b-0413797f25fe"

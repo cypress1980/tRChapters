@@ -1,0 +1,16 @@
+# Suite: tRChapters 8 tR iOS Mobile Automation Example -04 (krQLaLXFXKTYS3o4N)
+# Test case name: "Verify That a Logged-In User Can Add Products to Cart, Place an
+#                  Order Successfully, and Logout"
+#
+# INCOMPLETE as stored remotely: the steps stop part-way through login and never
+# reach the cart, order or logout that the name promises. Line 3 calls the `login`
+# rule and the two lines after it re-enter credentials, which is contradictory.
+customSteps: |
+  click "More tab button" using ai
+  click 12nd button
+  login
+  enter "bob@example.com" into "User Name"
+  enter "10203040" into "Password"
+  click "Password input field" using ai
+labels: [generated-by-ai]
+testCaseUuid: "fa47f610-a385-4322-a7dd-309f7cd91a99"

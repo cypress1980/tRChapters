@@ -1,0 +1,24 @@
+# Suite: tRChapters 8 tR Android Mobile Automation Example -02 (MkwytBxehMhocoqap)
+# Test case name: "Verify that a user can launch the application and successfully
+#                  create a new basic test case with required fields filled in"
+customSteps: |
+  click "Echo Box"
+  enter "Basic Test Case - Launch and Create" into "Say something"
+  click "Save"
+  check that page contains "Here's what you said before:"
+  check that page contains "Basic Test Case - Launch and Create"
+  go back
+  click "Login Screen"
+  enter "alice" into "Username"
+  enter "mypassword" into "Password"
+  click "Login"
+  check that page contains "Secret Area"
+  click "Logout"
+  check that page contains "Login"
+  restart app
+  click "List Demo"
+  click "AWS"
+  check that page contains "Congratulations! You expressed interest in the AWS cloud"
+  click "OK"
+labels: [generated-by-ai]
+testCaseUuid: "84bddb94-2a6d-494d-9acf-a5b0f3bbd1e1"

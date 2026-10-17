@@ -1,0 +1,7 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "API plus UI"
+# NOTE: despite the name this case performs no UI steps - it only grabs three
+# values from randomuser.me and stops. Looks unfinished.
+customSteps: |
+  call api get "https://randomuser.me/api/" and get "$.results[0].name.first" and save it as "firstName" and get "$.results[0].name.last" and save it as "lastName" and get "$.results[0].location.postcode" and save it as "postCode"
+testCaseUuid: "4e17eeb2-122e-4116-b5a2-3888b2257dbd"

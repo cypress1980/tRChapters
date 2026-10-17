@@ -1,0 +1,16 @@
+# Suite: tRChapters 8 tR Android Mobile Automation (GmDZSeAYdYSDLkSRc)
+# Test case name: "Verify that the Android application launches successfully after
+#                  installation from the .apk file on a physical device"
+customSteps: |
+  check that page does not contain "unfortunately"
+  check that page does not contain "has stopped"
+  check that page does not contain "error"
+  check that page contains "Products"
+  check that page contains "Sauce Labs Backpack"
+  check that page contains "Sauce Labs Bike Light"
+  check that page contains "Sauce Labs Bolt T-Shirt"
+
+  check that page contains "Sauce Labs Fleece Jacket"
+  //check that page contains "Sauce Labs Onesie"
+labels: [generated-by-ai]
+testCaseUuid: "840ca568-b53c-4d82-9d89-4e5a0e3e1f5e"

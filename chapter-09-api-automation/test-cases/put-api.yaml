@@ -1,0 +1,11 @@
+# Suite: tRChapters 9 tR API Automation Example -01
+# Test case name: "PUT API"
+customSteps: |
+  // call api put "https://tr-playground-api.onrender.com/update" with headers "Content-Type:application/json" and "Accept:application/json" and body text starting from next line and ending with [END]
+  // {
+  //   "message": "Hello world"
+  // }
+  // [END] and then check that http code is 200
+
+  call api put "https://httpbin.org/put" with headers "Content-Type:application/json" and "Accept:application/json" and body "{\"name\":\"Kailash\",\"salary\":\"92000\",\"age\":\"41\"}" and get "$.json.name" and save it as "createdName" and then check that http code is 200
+testCaseUuid: "c8e6979e-f87a-4228-b7bc-eeb325b82652"

@@ -1,0 +1,115 @@
+# Suite: tRChapters 8 tR iOs Mobile Automation Example -03 (cwHukcm4M9fp6Hkpd)
+# Test case name: "Verify that a user can log in, add the first product to the cart,
+#                  validate cart details, place an order, and successfully log out"
+#
+# Only the six OCR/AI steps in the middle are live. Everything else is commented out
+# and preserved verbatim: roughly 70 abandoned attempts at the iOS secure password
+# field (coordinate taps, accessibility id test-Password, per-character type, natural
+# -language login phrasings), plus the whole intended cart/checkout/logout flow that
+# was never re-enabled. Kept as-is because it is the record of what did NOT work.
+customSteps: |
+  // click button below the "Sauce Labs Backpack - Red"
+  // click "More tab at the bottom navigation bar" using ai
+  // click 12nd button
+
+  click "More" using OCR only
+  click "Login" using OCR only
+  take screenshot
+  wait up to 10 sec until page contains "User name"
+  take screenshot
+  enter "bob@example.com" into "User Name"
+  take screenshot
+  enter "10203040" into input "Password"
+  take screenshot
+  click "Login button" using AI
+  // click "Password input field" using ai
+  // enter "10203040" into "Password"
+  // click "Login green button" using ai
+  // click "bob@example.com"
+  // click "Password"
+  // type "10203040"
+  // click "Login button at the bottom" using ai
+  // click on labeled Password
+  // type "10203040"
+  // enter stored value "password" into "Password"
+  // tap on screen at 178, 1190
+  // tap on screen at 178, 1190
+  // type "10203040"
+  // tap on screen at 178, 2013
+  // enter "10203040" into "password" using ai
+  // click "Password input field" using ai
+  // type "10203040"
+  // click "bob@example.com link in username list" using ai
+  // click "Login"
+  // click "Login" using ai
+  // tap on screen at 178, 1935
+  // enter "10203040" into "Password" with accessibility id "test-Password"
+  // tap on screen at 195, 1140
+  // type "10203040"
+  // enter "10203040" into element with accessibility id "test-Password"
+  // tap on screen at 195, 1125
+  // tap on screen at 180, 1110
+  // type "10203040"
+  // click "User Name"
+  // press "return"
+  // type "10203040"
+  // tap on screen at 178, 1935
+  // tap on screen at 178, 645
+  // enter "10203040" into 2nd text field
+  // enter "10203040" into secure text field
+  // clear "User Name"
+  // tap on screen at 294, 712
+  // enter "10203040" into the second field
+  // click "10203040 password text in the list" using ai
+  // click "Password input field" using ai
+  // type "10203040"
+  // click "••••••••"
+  // click "••••••••••••••••"
+  // type "10203040"
+  // enter "10203040" into "password"
+  // sign in with username bob@example.com and password 10203040
+  // login with username bob@example.com and password 10203040
+  // click "••••••••"
+  // type "1"
+  // type "0"
+  // type "2"
+  // type "0"
+  // type "3"
+  // type "0"
+  // type "4"
+  // type "0"
+  // enter "10203040" into the edit "Password"
+  // click button below the "bob@example.com"
+  // click Login
+  // enter "10203040" into "Password" using ai
+  // click "Login" using ai
+  // click Login
+  // enter "10203040" into labeled "Password" using ai
+  // enter "10203040" into "Password" using ai
+  // click "Login" using ai
+  // enter "10203040" into "secure" field
+  // enter "10203040" into "Password" using ai
+  // click Login
+  // click Login
+  // enter "10203040" into "Password" using ai
+  // click "Login green button" using ai
+  // click "Password input field empty white area below Password label" using ai
+
+  // type "10203040"
+  // click "LOGIN" using ai
+  // click "ADD TO CART" below "Sauce Labs Backpack" using ai
+  // click "cart icon" using ai
+  // check that page contains "Sauce Labs Backpack"
+  // check that page contains "$29.99"
+  // check that page contains "1"
+  // click "CHECKOUT" using ai
+  // enter "John" into "First Name" using ai
+  // enter "Doe" into "Last Name" using ai
+  // enter "12345" into "Zip/Postal Code" using ai
+  // click "CONTINUE" using ai
+  // click "FINISH" using ai
+  // check that page contains "THANK YOU FOR YOU ORDER" using ai
+  // click "menu" using ai
+  // click "LOGOUT" using ai
+labels: [generated-by-ai]
+testCaseUuid: "215b32b2-4edb-482f-987f-d241ffce293e"
