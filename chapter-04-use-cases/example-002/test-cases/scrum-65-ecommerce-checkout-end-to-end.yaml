@@ -1,0 +1,36 @@
+# Suite: tR Use Case Chapter 4 - Example-002 (CfKauFmQ4o3eaFD28)
+# Test case name: "SCRUM-65 Ecommerce checkout end to end"
+customSteps: |
+  // SCRUM-65 - tR - Testing The Ecommerce application
+  // Step 1: https://www.saucedemo.com/ opens automatically from the suite start URL
+  // Step 2: Login with standard_user / secret_sauce
+  enter "standard_user" into "Username"
+  enter "secret_sauce" into "Password"
+  click "Login"
+  check that page contains "Products"
+  // Step 3: Add one product
+  click "Add to cart" below "Sauce Labs Backpack"
+  check that page contains "Remove"
+  // Step 4: Open the cart by clicking the icon in the top right side
+  click on "shopping cart icon in the top right corner" using ai
+  check that page contains "Your Cart"
+  check that page contains "Sauce Labs Backpack"
+  // Step 5: Click on checkout button
+  click "Checkout"
+  check that page contains "Checkout: Your Information"
+  // Step 6: Fill the Checkout Information
+  enter "Kailash" into "First Name"
+  enter "Pathak" into "Last Name"
+  enter "110001" into "Zip/Postal Code"
+  // Step 7: Click on continue button
+  click "Continue"
+  check that page contains "Checkout: Overview"
+  check that page contains "Sauce Labs Backpack"
+  // Step 8: Click on Finish button
+  click "Finish"
+  // Step 9: Verify message Thank you for your order!
+  check that page contains "Thank you for your order!"
+  check that page contains "Checkout: Complete!"
+  check that page contains "Your order has been dispatched"
+labels: [SCRUM-65]
+testCaseUuid: "7151ec99-5062-4349-a607-dc0b4e6557aa"

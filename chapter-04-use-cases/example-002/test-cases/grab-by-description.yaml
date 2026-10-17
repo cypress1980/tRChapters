@@ -1,0 +1,10 @@
+# Suite: tR Use Case Chapter 4 - Example-002 (CfKauFmQ4o3eaFD28)
+# Test case name: "Grab by description"
+customSteps: |
+  //grab value by description "Accepted usernames are:" using AI and save it as "username"
+  grab value by description "First accepted username" using AI and save it as "username"
+  grab value by description "Password for all the users:'" using AI and save it as "password"
+  enter saved value "username" into "Username"
+  enter saved value "password" into "Password"
+  click "Login"
+testCaseUuid: "7b07d8e5-a038-4da5-8d37-44a3fd18996a"

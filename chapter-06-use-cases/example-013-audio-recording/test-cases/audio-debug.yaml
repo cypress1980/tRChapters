@@ -1,0 +1,6 @@
+# Suite: tR Use Case Audio Recording Chapter 6 - Example-013 (WfzKodW6pQZNgmk7t)
+# Test case name: "audio debug"
+customSteps: |
+  open url "https://testrigorplayground.netlify.app/audioInput"
+  play audio saved value "sampleAudio" after clicking "start recording" then click "stop recording"
+testCaseUuid: "7d3531d2-5268-44f0-a7ad-267f56d695ca"

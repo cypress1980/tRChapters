@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 5 - Example-007 (HGWCDwqZWaxZQktxh)
+# Test case name: "live-session-1788939641074"
+customSteps: |
+  generate from template "*****", then enter into "First Name" and save as "generatedFirstName"
+  generate from template "*****", then enter into "Last Name" and save as "generatedLastName"
+  generate from template "*****", then enter into "Address" and save as "generateAddress"
+  generate from template "*****", then enter into "City" and save as "generateCity"
+  generate from template "*****", then enter into "State" and save as "generateState"
+  generate from template "#####", then enter into "Zip Code" and save as "generatedZip Code"
+  generate from template "##########", then enter into "Phone" and save as "generatedPhoneNumber"
+  generate from template "#####1234", then enter into "SSN" and save as "generatedSSN"
+  enter "john1980" into "Username:"
+  enter "Test@#12345" into "Password:"
+  enter "Test@#12345" into "Confirm:"
+  click "SIGNUP" near "Confirm"
+  check that page contains "REgister"
+testCaseUuid: "fd58152c-29e2-4827-855b-acb920463f69"

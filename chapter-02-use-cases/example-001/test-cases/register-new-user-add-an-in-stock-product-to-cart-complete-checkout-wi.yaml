@@ -1,0 +1,24 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Register new user, add an in-stock product to cart, complete checkout with credit card and standard shipping, then verify order confirmation email and My Orders entry"
+customSteps: |
+  click "Sign in"
+  click "Create Account"
+  click "First Name"
+  enter "John" into "First Name"
+  enter "Tester" into "Last Name"
+  enter "johntester_bb_2024@testrigor-mail.com" into "Email Address"
+  enter "TestPass@123" into "Password"
+  enter "TestPass@123" into "Confirm Password"
+  enter "5551234567" into "Mobile Phone Number"
+  click "Spaces"
+  scroll down
+  click "Create an Account"
+  click "Email Address input field" using ai
+  triple click "Email Address input" using ai
+  enter "johntester_bb_20251234@testrigor-mail.com" into "Email Address"
+  scroll down
+  click "Create an Account button" using ai
+  triple click "Email Address input" using ai
+  enter "bb_newuser_xk7p92m3@testrigor-mail.com" into "Email Address"
+labels: [generated-by-ai]
+testCaseUuid: "4884407c-74a6-4f87-90b6-32f8f026c64f"

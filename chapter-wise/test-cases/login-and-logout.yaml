@@ -1,0 +1,23 @@
+# Suite: tR Use Case Chapter Wise (ATurjEWGS499niuWP)
+# Test case name: "Login and Logout"
+customSteps: |
+  enter "demo@demo.com" into "Email"
+  enter "demo" into "Password"
+  click "Login"
+  click "Shop Now" below the "Men Fashion"
+  click "Add to Cart" below the "Black T-Shirt"
+  scroll up
+  click "1"
+  click "Proceed To Checkout"
+  enter "Kailash" into "Enter First Name"
+  enter "Pathak" into "Enter Last Name"
+  enter "kailash@qa.com" into "example@email.com"
+  enter "9999888888" into "9876543210"
+  enter "12/3 North Lake India" into "Enter Address"
+  enter "Rest" into "Enter State"
+  enter "Test" into "Enter City"
+  enter "121456" into "Enter Pin Code"
+  click "Continue"
+  click "Place Order"
+  //click "logoutBtn"
+testCaseUuid: "832911d3-9ec5-4d6d-8f3a-e2127254ba43"

@@ -1,0 +1,11 @@
+# Suite: tR Use Case Chapter 6 - Example-011 (8wqktf2nQ9cqnkwyE)
+# Test case name: "Scan QR Code"
+customSteps: |
+  //Method # 1 : Scan a QR Code from a Web Page
+  // scan qr code value from element above "A QR code for the " and save as "code"
+  // check that the stored value "code" itself contains "wikipedia.org"
+
+  //Method # 2 : Scan a QR Code from a Stored Image
+  scan qr code value from stored value "QRCode" and save it as "code"
+  check that the stored value "code" itself contains "wikipedia.org"
+testCaseUuid: "12a390c4-3ede-46ac-ad15-fcf556cca3f6"

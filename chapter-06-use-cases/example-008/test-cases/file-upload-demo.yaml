@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 6 - Example-008 (DLpr9ptodoc2HyvWD)
+# Test case name: "File Upload demo"
+customSteps: |
+  check that page contains "File Upload Demo"
+  // 1st approach - dragging the file
+  //drag file from saved value "UploadFile" onto "Drag & Drop your file here"
+
+  // 2nd approach - Using native file dialog
+  click "Browse File"
+  select file from stored value "UploadFile" using file selection dialog
+  check that page contains "Selected File"
+
+
+
+  // enter stored value "UploadFile" into input file "Browse for a file to upload"
+  // check that page contains "Upload another file"
+testCaseUuid: "1e2f2e02-723a-4fdc-921e-6597a62a4f63"

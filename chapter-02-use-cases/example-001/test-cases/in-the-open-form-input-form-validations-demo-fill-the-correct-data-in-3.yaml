@@ -1,0 +1,21 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "In the open form \"Input form validations Demo\" fill the correct data in each field and verify form submitted successfully without any validation error message"
+customSteps: |
+  enter "John" into "First Name"
+  enter "Michael" into "Middle Name"
+  enter "Doe" into "Last Name"
+  enter "john.doe@testrigor-mail.com" into "Email"
+  enter "SecurePass123!" into "Password"
+  enter "123 Main Street, Apt 4B" into "Address"
+  enter "New York" into "City"
+  enter "New York" into "State"
+  enter "10001" into "Pin Code"
+  click "Submit"
+  check that page contains "Form submitted successfully"
+
+
+  check that page does not contain "error"
+  check that page does not contain "invalid"
+  check that page does not contain "required"
+labels: [generated-by-ai]
+testCaseUuid: "a081cfab-4401-4abb-9f2f-41855e24aa6f"

@@ -1,0 +1,7 @@
+# Suite: tR Use Case Chapter 5 - Example-005 (StJBByQnwDMShWv9N)
+# Test case name: "Check Loop Example 1"
+customSteps: |
+  scroll down until page contains "Showing"
+  click "Next" until page contains "Hope Fuentes"
+  click "Hope Fuentes"
+testCaseUuid: "f3e252fa-27e4-4443-84c4-39bc8d349723"

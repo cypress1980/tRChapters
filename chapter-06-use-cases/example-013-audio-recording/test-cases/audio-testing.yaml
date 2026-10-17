@@ -1,0 +1,12 @@
+# Suite: tR Use Case Audio Recording Chapter 6 - Example-013 (WfzKodW6pQZNgmk7t)
+# Test case name: "Audio Testing"
+customSteps: |
+  open url "https://online-voice-recorder.com/"
+  click "icn-record"
+
+  play audio from stored value "sampleAudio"
+  wait 5 sec
+  click "icn-record"
+  click exactly "Save"
+  check that file was downloaded
+testCaseUuid: "11de2471-7483-4918-91dd-f1862dbe7f91"

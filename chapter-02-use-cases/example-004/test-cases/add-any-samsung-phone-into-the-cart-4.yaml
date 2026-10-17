@@ -1,0 +1,38 @@
+# Suite: tR Use Case Chapter 2 - Example-004 (QukEEJfAJuy8nQraL)
+# Test case name: "add any samsung phone into the cart"
+customSteps: |
+  open url "https://www.bestbuy.com/"
+  click "Search"
+  click "Search"
+  click "Search"
+  enter "Samsung" into "Search Best Buy"
+  type enter
+  click "Samsung Galaxy S Series"
+  click "Samsung Galaxy S Series"
+  scroll down
+  scroll down
+  scroll up
+  scroll up
+  click "Samsung Galaxy S Series"
+  reload
+  scroll down
+  scroll down
+  scroll down
+  click "See Details button" using ai
+  go back
+  click "Samsung - Galaxy S26 256GB (Unlocked) - Black product image or title" using ai
+  go back
+  click "See Details button" using ai
+  reload
+  go back
+  click "Samsung - Galaxy S25 FE 128GB (Unlocked) - Jet Black"
+  reload
+  reload
+  go back
+  click "See Details button for Samsung Galaxy S26 256GB" using ai
+  reload
+  reload
+  go back
+  scroll up
+  click "Samsung - Galaxy S26 Ultra 512GB (Unlocked) - Black product image (non-sponsored)" using ai
+testCaseUuid: "451e22f8-463a-4442-929b-7bd0f813d95f"

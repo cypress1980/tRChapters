@@ -1,0 +1,12 @@
+# Suite: tR Use Case Chapter 2 - Example-003 (hpDJ8KQZNSpuFjQv7)
+# Test case name: "New Customer Registration with unique mail id and verify congratulation message"
+customSteps: |
+  click "Continue"
+  click "*First Name"
+  fill out form
+  click "Privacy Policy checkbox" using ai
+  click "Continue button to submit registration" using ai
+  check that page contains "Your Account Has Been Created!"
+  check that page contains "Congratulations! Your new account has been successfully created!"
+labels: [generated-by-ai]
+testCaseUuid: "1b6622a6-7762-495f-8ba0-7052649d03b0"

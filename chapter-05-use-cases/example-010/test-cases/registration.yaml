@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 5 - Example-010 (5yjnbXirPTzCuvcNX)
+# Test case name: "Registration"
+customSteps: |
+  enter stored value "firstname" into "First Name"
+  enter stored value "lastname" into "Last Name"
+  generate from template "######@yopmail.com", then enter into "E-mail" and save as "generatedEmail"
+  //enter stored value "email" into "E-Mail"
+  enter stored value "telephone" into "Telephone"
+  enter stored value "password" into "Password"
+  enter stored value "confirm password" into "Password Confirm"
+  click radiobutton "Yes"
+  click checkbox right of "Privacy Policy"
+  click "Continue"
+  check that page contains "Your Account Has Been Created!"
+  click "Logout"
+  click "Login"
+testCaseUuid: "26ffdd68-3d2f-41e3-b6c5-43c0dd8adc8f"

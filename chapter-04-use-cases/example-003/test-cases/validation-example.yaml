@@ -1,0 +1,13 @@
+# Suite: tR Use Case Chapter 4 - Example-003 (HvptojZKfhoe6q4p8)
+# Test case name: "Validation Example"
+customSteps: |
+  check that page contains "demo@demo.com"
+  check that page contains "demo"
+  check that "Login" is enabled
+  enter "demo@demo.com" into "Email"
+  enter "demo" into "Password"
+  check that input "Email" has value "demo@demo.com"
+  check that input "Password" has value "demo"
+  check that page "contains login credentials for users" using ai
+  click "Login"
+testCaseUuid: "15f3e772-3a5a-4ef9-9f91-ab7021abbe75"

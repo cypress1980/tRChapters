@@ -1,0 +1,5 @@
+# Suite: tR Use Case Chapter Wise (ATurjEWGS499niuWP)
+# Test case name: "Test Case For Testing UI objects"
+customSteps: |
+  click "CheckBox" below the "Dashboard"
+testCaseUuid: "5138dcad-332a-4fc4-b796-9771ffe97495"

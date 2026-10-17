@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 5 - Example-009 (DxfM2bgfs4KRZD5bK)
+# Test case name: "Register ParaBanak"
+customSteps: |
+  enter stored value "FirstName:" into "First Name"
+  enter stored value "LastName:" into "Last Name"
+  enter stored value "Address:" into "Address"
+  enter stored value "City:" into "City"
+  enter stored value "State:" into "State"
+  enter stored value "ZipCode:" into "Zip Code"
+  enter stored value "Phone:" into "Phone"
+  enter stored value "SSN:" into "SSN"
+  enter stored value "Username:" into "Username:"
+  enter stored value "Password:" into "Password:"
+  enter stored value "Password:" into "Confirm:"
+  click "REGISTER" near "Confirm:"
+  check that page contains "Your account was created successfully"
+testCaseUuid: "c82c66b8-e971-4102-b775-21ba3a3cf901"

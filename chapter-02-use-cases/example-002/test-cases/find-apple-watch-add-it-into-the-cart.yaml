@@ -1,0 +1,19 @@
+# Suite: tR Use Case Chapter 2 - Example-002 (wfGesuhM5Desq5NGG)
+# Test case name: "find \"apple watch\" add it into the cart"
+customSteps: |
+  click "Search"
+  click "Search"
+  click "Search"
+  enter "Apple Watch" into "Search Best Buy"
+  type enter
+  scroll down
+  scroll up
+  click "First Apple Watch product image with 4 months free Apple Fitness+ badge" using ai
+  go back
+  click "Apple Watch Series 11 (GPS) 42mm Rose Gold Aluminum Case"
+  go back
+  reload
+  scroll down
+  scroll up
+labels: [generated-by-ai]
+testCaseUuid: "693657ea-0190-44c6-b177-0506cd2dfea8"

@@ -1,0 +1,13 @@
+# Suite: tR Use Case Chapter 5 - Example-008 (8NWAvPRkndXvKXCzH)
+# Test case name: "if/else Test"
+customSteps: |
+  if page contains "Kailash Pathak" then
+    hover over "Kailash Pathak"
+    click "Kailash Pathak"
+    wait 3 sec
+  else
+    enter "Edinburgh" into "Search:"
+    wait 3 sec
+    click "Cedric Kelly"
+  end
+testCaseUuid: "c1042e46-31bc-4377-a527-df6e1085111f"

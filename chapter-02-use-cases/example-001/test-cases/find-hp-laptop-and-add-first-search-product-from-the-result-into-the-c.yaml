@@ -1,0 +1,31 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Find HP laptop and add first search product from the result into the cart"
+customSteps: |
+  enter "Pan" into "Search"
+  type enter
+  check that page contains "Pan"
+  click "Continue shopping button" using ai
+  click "All Categories"
+  click "All Categories"
+  click "Search Amazon.in placeholder text" using ai
+  click "All Categories"
+  click "Close menu"
+  click "All Categories"
+  click "Close menu"
+  enter "HP laptop" into "Search"
+  type enter
+  scroll down
+  scroll up
+  scroll down
+  scroll up
+  click "HP"
+  click "Limited time deal"
+  go back
+  click "HP"
+  click "Limited time deal"
+  go back
+  click button roughly on the left of "HP"
+  scroll down
+  click "Add to cart"
+  check that page contains "Added to cart"
+testCaseUuid: "8a4e67a8-fabd-41cd-8e5e-7716475c6f9b"

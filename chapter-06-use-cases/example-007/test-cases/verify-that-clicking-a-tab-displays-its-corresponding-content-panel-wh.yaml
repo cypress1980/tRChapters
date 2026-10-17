@@ -1,0 +1,38 @@
+# Suite: tR Use Case Chapter 6 - Example-007 (jWPqwkWaeW8dn83qa)
+# Test case name: "Verify that clicking a tab displays its corresponding content panel while hiding the content of all other tabs"
+customSteps: |
+
+  open URL "https://qaplayground.dev/apps/links/"
+  click "HOME"
+  check that page does not contain "Welcome to the About Page"
+  check that page does not contain "Welcome to the Blog Page"
+  check that page does not contain "Welcome to the Portfolio Page"
+  check that page does not contain "Welcome to the Contact Page"
+  click "ABOUT"
+  check that page contains "Welcome to the About Page"
+  check that page does not contain "Welcome to the Blog Page"
+  check that page does not contain "Welcome to the Portfolio Page"
+  check that page does not contain "Welcome to the Contact Page"
+  click "GO BACK"
+  click "BLOG"
+  check that page contains "Welcome to the Blog Page"
+  check that page does not contain "Welcome to the About Page"
+  check that page does not contain "Welcome to the Portfolio Page"
+  check that page does not contain "Welcome to the Contact Page"
+  click "GO BACK"
+  click "PORTFOLIO"
+  check that page contains "Welcome to the Portfolio Page"
+  check that page does not contain "Welcome to the About Page"
+  check that page does not contain "Welcome to the Blog Page"
+  check that page does not contain "Welcome to the Contact Page"
+
+
+  click "GO BACK"
+  click "CONTACT"
+  check that page contains "Welcome to the Contact Page"
+  check that page does not contain "Welcome to the Home Page"
+  check that page does not contain "Welcome to the About Page"
+  check that page does not contain "Welcome to the Blog Page"
+  check that page does not contain "Welcome to the Portfolio Page"
+labels: [generated-by-ai]
+testCaseUuid: "f41fbd8a-9696-48bc-bf61-5a23d84dbd89"

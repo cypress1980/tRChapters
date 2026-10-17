@@ -1,0 +1,8 @@
+# Suite: tR Use Case Chapter 6 - Example-003 (mc3KrJxYt2LNcXMZE)
+# Test case name: "Click inside iframe"
+customSteps: |
+  click "CLick Me"
+  check that page contains "You have clicked on iframe 1 button"
+  click "Click Me"
+  check that page contains "You have clicked on iframe 2 button"
+testCaseUuid: "29c9c9aa-139e-4012-9937-42ca0f10709f"

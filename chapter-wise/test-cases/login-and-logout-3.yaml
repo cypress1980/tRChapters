@@ -1,0 +1,11 @@
+# Suite: tR Use Case Chapter Wise (ATurjEWGS499niuWP)
+# Test case name: "Login and Logout"
+customSteps: |
+  enter "demo@demo.com" into "Email"
+  enter "demo" into "Password"
+  click "Login"
+  click "Shop Now" below the "Men Fashion"
+  click "Add to Cart" below the "Black T-Shirt"
+  click "Proceed To Checkout"
+  enter "Kailash" into "Enter First Name"
+testCaseUuid: "35de66f9-7942-43ae-834d-f48ecc2f1835"

@@ -1,0 +1,13 @@
+# Suite: tR Use Case Chapter 2 - Example-002 (wfGesuhM5Desq5NGG)
+# Test case name: "find a apple watch add it to the shopping cart"
+customSteps: |
+  search for Apple Watch
+  click "Apple Watch SE 3"
+  scroll down
+  click "Add to cart button for first Apple Watch SE 3 product" using ai
+  check that page contains "Added to cart"
+  check that page contains "Cart Subtotal (1 item):"
+
+  check that page contains "$219.00" on the right of "Cart Subtotal (1 item):"
+labels: [generated-by-ai]
+testCaseUuid: "f9c2717e-def0-4d5d-83e5-6d2addb274d8"

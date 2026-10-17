@@ -1,0 +1,6 @@
+# Suite: tR Use Case Chapter Wise (ATurjEWGS499niuWP)
+# Test case name: "Open the site https://shop.qaautomationlabs.com/ login into the site  with Email: demo@demo.com  Password: demo Verified user is logged in"
+customSteps: |
+  login
+  check that page contains "User" or "Account" or "Logout"
+testCaseUuid: "961e7a8b-02ac-4109-a5c4-b6fa85052ed4"

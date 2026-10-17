@@ -1,0 +1,9 @@
+# Suite: tR Use Case Chapter 6 - Example-006 (Y7ma5xWyBcfD9xj3N)
+# Test case name: "Pop Up WIndow"
+customSteps: |
+  click "Pop-Up Window"
+  click "OPEN"
+  click "Submit"
+  check that page contains "Button Clicked"
+labels: [fixed-by-ai]
+testCaseUuid: "8e232654-3b77-4508-a58d-08b4b3e51e1a"

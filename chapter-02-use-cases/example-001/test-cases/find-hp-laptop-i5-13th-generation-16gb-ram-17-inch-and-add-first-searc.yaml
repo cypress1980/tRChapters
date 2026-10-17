@@ -1,0 +1,18 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Find hp laptop i5 13th generation 16gb ram 17 inch and add first searched product into the cart"
+customSteps: |
+  click "Continue shopping"
+  click "Search Amazon.in"
+  enter "HP laptop i5 13th generation 16GB RAM 17 inch" into "Search Amazon.in"
+  type enter
+  scroll down
+  scroll down with the mouse
+  click "Add to cart button for Best seller HP laptop" using ai
+  go back
+  scroll up
+  check that page contains "HP laptop i5 13th generation 16GB RAM 17 inch"
+
+
+  click first "Add to Cart"
+labels: [generated-by-ai]
+testCaseUuid: "808f1bc5-bebe-46b4-963b-778fbd5a74ec"

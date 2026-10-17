@@ -1,0 +1,10 @@
+# Suite: tR Use Case Chapter 4 - Example-001 (RQdpveizyyDSXfLdx)
+# Test case name: "Grab and search"
+customSteps: |
+  grab value from element below "Email:" and save it as "email"
+  grab value from element to the right of "Password:" and save it as "password"
+  extract value by regex "(?<=Password:\s).*$" from stored value "password" and save as "password"
+  enter saved value "email" into "Email"
+  enter saved value "password" into "Password"
+  click "Login"
+testCaseUuid: "6a1d6564-ffb8-4917-8ab4-d1ce7e2f4d6e"

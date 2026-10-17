@@ -1,0 +1,14 @@
+# Suite: tR Use Case Chapter 2 - Example-004 (QukEEJfAJuy8nQraL)
+# Test case name: "add any samsung phone into the cart"
+customSteps: |
+  open url https://www.amazon.com/
+
+  click "Continue shopping"
+  enter "Samsung phone" into "Search Amazon"
+  type enter
+  scroll down
+  click "Samsung Galaxy A17 5G Smart Phone product title" using ai
+  click "Add to Cart"
+  click "No thanks"
+  check that page contains "Added to cart"
+testCaseUuid: "3b091220-5722-494e-b49b-1dca1fbef2e6"

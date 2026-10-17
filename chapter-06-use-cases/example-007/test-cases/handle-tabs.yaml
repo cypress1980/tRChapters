@@ -1,0 +1,9 @@
+# Suite: tR Use Case Chapter 6 - Example-007 (jWPqwkWaeW8dn83qa)
+# Test case name: "Handle Tabs"
+customSteps: |
+  click "New Tab"
+  click "Open New Tab"
+  check that page contains "Welcome to the new page!"
+  close tab
+  check that page contains "QA Playground"
+testCaseUuid: "b41736b1-aa6b-44ad-89fd-05869d9b06cd"

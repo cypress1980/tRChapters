@@ -1,0 +1,6 @@
+# Suite: tR Use Case Chapter 4 - Example-001 (RQdpveizyyDSXfLdx)
+# Test case name: "Grab and verify"
+customSteps: |
+  grab value from 1st text and save it as "pageTitle"
+  enter saved value "pageTitle" into "Search"
+testCaseUuid: "e1d76f18-f25f-4495-9aa3-feea819a2334"

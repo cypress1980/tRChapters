@@ -1,0 +1,29 @@
+# Suite: tR Use Case Chapter 5 - Example-003 (qHzgqE9JFQQ9R4PXn)
+# Test case name: "Verify that a new user can successfully register an account on the ecommerce site by completing the registration form with valid details and submitting it"
+customSteps: |
+  enter "John" into "First Name"
+  enter "Doe" into "Last Name"
+  enter "johndoe.test123@testrigor-mail.com" into "Email Address"
+  enter "TestPassword@123" into "Password field"
+  enter "TestPassword@123" into "Confirm Password"
+  click "Create an Account button" using ai
+  enter "5555551234" into "Mobile Phone Number"
+  click "Upper and lowercase letters"
+  scroll down
+  click "Create an Account"
+  enter "johndoe.newuser987654@testrigor-mail.com" into "Email Address"
+  scroll down
+  click "Create an Account"
+  generate from template "testuser_####@testrigor-mail.com", then enter into "Email Address" and save as "newEmail"
+  scroll down
+  click "Create an Account"
+  generate from template "qatestbby##########@testrigor-mail.com", then enter into "Email Address" and save as "newEmail"
+  scroll down
+  click "Create an Account"
+  generate from template "newacct_##########_##@testrigor-mail.com", then enter into "Email Address" and save as "newEmail"
+  scroll down
+  click "Create an Account"
+
+  check that page contains "Thank you for registering"
+labels: [generated-by-ai]
+testCaseUuid: "96a3a0e8-143a-46ff-8469-db94cd8abcc4"

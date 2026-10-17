@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 6 - Example-010 (dNouyaBj4PW3tbdji)
+# Test case name: "Email testing"
+customSteps: |
+  send email to "kailashpathak808@gmail.com" with subject "Hi KP - Test message" and  body "Hi, Kailash is a test, this is just a test message."
+  check that email from "kailashpathak808@gmail.com" is delivered
+
+
+  click "Sign up"
+  generate unique email, then enter into "Email" and save as "generatedEmail"
+  generate unique name, then enter into "Name" and save as "generatedName"
+  enter "PasswordSuperSecure" into "Password"
+  click "Submit"
+  check that email to stored value "generatedEmail" was delivered
+  click "Confirm email"
+  check that page contains "Email was confirmed"
+  check that page contains expression "Hello, ${generatedName}"
+testCaseUuid: "38a7f183-d3e0-42e3-9ffa-e5220e515f5c"

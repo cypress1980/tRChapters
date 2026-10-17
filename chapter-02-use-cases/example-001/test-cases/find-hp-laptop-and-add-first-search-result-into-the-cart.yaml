@@ -1,0 +1,23 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Find HP laptop and add first search result into the cart"
+customSteps: |
+  click "Continue shopping"
+  enter "HP laptop" into "Search Amazon.in"
+  type enter
+  scroll down with the mouse
+  click "Check each product page for other buying options."
+  click button roughly on the right of "Eligible for Free Delivery"
+  go back
+  scroll down with the mouse
+  scroll down with the mouse
+  click button roughly on the right of "Eligible for Free Delivery"
+  go back
+  scroll down with the mouse
+  click "Results"
+  click "15 (2026), AMD Athlon Dual Core 7120U product title link" using ai
+  scroll down
+  click "Add to cart"
+  check that page contains "Added to cart"
+  check that page contains "Proceed to Buy (1 item)"
+labels: [generated-by-ai]
+testCaseUuid: "d4bf031a-3fc9-4ddd-9979-95fed03e45f4"

@@ -1,0 +1,36 @@
+# Suite: tR Use Case Chapter 2 - Example-002 (wfGesuhM5Desq5NGG)
+# Test case name: "find \"Kindle\" add first search watch into cart by clicking on Add  to cart  and place the order"
+customSteps: |
+  click "Search Best Buy"
+  click "Search"
+  enter "Kindle" into "Search Best Buy"
+  type enter
+  scroll down
+  scroll up
+  scroll down
+  click "Add to cart button" using ai
+  click "Go to cart button" using ai
+  check that page contains "Your Cart"
+  click "Checkout"
+  click "Continue as Guest"
+  click "First Name input" using ai
+  fill out form
+  click "First Name"
+  click "Apply button below city state zip fields" using ai
+  click "Keep Address as Entered"
+  click "Email Address input field" using ai
+  enter "john.doe@testrigor-mail.com" into "Email Address"
+  click "Phone Number input field" using ai
+  triple click "Phone Number input field" using ai
+  enter "8005550100" into "Phone Number"
+  click "Continue to Payment Information"
+  click "Card Number input field" using ai
+  enter "4111111111111111" into "Card Number"
+  click "Expiration Date"
+  enter "12/28" into "Expiration Date"
+  click "Security Code CVV field" using ai
+  enter "123" into "Security Code"
+  scroll down
+  check that page contains "Payment Information"
+labels: [generated-by-ai]
+testCaseUuid: "c44c4123-988e-4bb4-b229-b0f779539806"

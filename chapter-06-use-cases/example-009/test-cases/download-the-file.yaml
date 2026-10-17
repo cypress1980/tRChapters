@@ -1,0 +1,11 @@
+# Suite: tR Use Case Chapter 6 - Example-009 (FfW3veHbkuhcf5T3f)
+# Test case name: "download the file"
+customSteps: |
+  click "Download PPTX File"
+  check that file "sample.pptx" was downloaded
+  check that downloaded file contains "Lorem ipsum"
+
+  click "Download TXT File"
+  check that file "sample.txt" was downloaded
+  check that downloaded file contains "sunt in culpa qui officia"
+testCaseUuid: "ac56173f-51d1-4428-be44-cf24504b89f8"

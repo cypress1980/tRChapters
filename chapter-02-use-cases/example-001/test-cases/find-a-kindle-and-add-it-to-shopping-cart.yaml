@@ -1,0 +1,51 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Find a Kindle and add it to shopping cart"
+customSteps: |
+  click "Search"
+  click "Search"
+  click "Search"
+  enter "Kindle" into "Search Best Buy"
+  type enter
+  click "Amazon - Kindle (16 GB) - 2024 - Matcha"
+  go back
+  scroll up
+  scroll down
+  scroll down
+  scroll down
+  scroll up
+  scroll up
+  click "Amazon - Kindle Paperwhite Signature Edition (32 GB) - 2024 - Metallic Black"
+  reload
+  reload
+  go back
+  scroll down
+  click "Amazon - Kindle Paperwhite Signature Edition (32 GB) - 2024 - Metallic Black"
+  go back
+  click "Kindle product image" using ai
+  reload
+  click "The webpage at https://www.bestbuy.com/product/amazon-kindle-16-gb-2024-matcha/J39TLSRZT3/sku/6599467 might be temporarily down or it may have moved permanently to a new web address."
+  reload
+  go back
+  middle click "utility"
+  switch to tab 2
+  scroll down
+  click "Amazon - Kindle Paperwhite Signature Edition (32 GB) - 2024 - Metallic Black text link" using ai
+  reload
+  go back
+  click "Amazon - Kindle (16 GB) - 2024 - Matcha product title" using ai
+  go back
+  click "No, Thanks"
+  click "Best Selling Kindle product image" using ai
+  reload
+  reload
+  reload
+  reload
+  reload
+  go back
+  scroll down
+  click "Amazon - Kindle Colorsoft Signature Edition (32 GB) - 2024 - Metallic Black product title" using ai
+  reload
+
+  click "Add to Cart"
+labels: [generated-by-ai]
+testCaseUuid: "54050a1c-d2f8-4862-b8ab-725045a8b4c8"

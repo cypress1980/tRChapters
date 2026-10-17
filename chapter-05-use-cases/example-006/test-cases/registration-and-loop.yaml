@@ -1,0 +1,5 @@
+# Suite: tR Use Case Chapter 5 - Example-006 (TMLXZYchBjReHqFQv)
+# Test case name: "Registration and Loop"
+customSteps: |
+  registration until page contains "Congratulations! Your new account has been successfully created!"
+testCaseUuid: "24703a86-0339-43e3-b95b-d10c967923b7"

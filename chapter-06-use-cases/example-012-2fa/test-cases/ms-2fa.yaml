@@ -1,0 +1,14 @@
+# Suite: tR 2FA Use Case Chapter 6 - Example-012 (Qkz6BvTWGXAEwsi8a)
+# Test case name: "MS 2FA"
+customSteps: |
+  open url "https://account.microsoft.com/account"
+  click "Sign in"
+  enter saved value "msEmail" into input "Email"
+  click "Next"
+  enter saved value "msPass" into input "Password"
+  click "Next"
+  generate pin with totp from stored value "msqr" and save it as "code"
+  enter saved value "code" into input
+  click "Verify"
+  click "No"
+testCaseUuid: "09e37691-ca8a-44b6-b409-084d3a0152ef"

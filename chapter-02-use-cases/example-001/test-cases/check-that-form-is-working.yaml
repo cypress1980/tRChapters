@@ -1,0 +1,5 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Check that form is working"
+customSteps: |
+  in the field for name write the name
+testCaseUuid: "d864f492-8372-4043-abf9-f2805d1d4bb3"

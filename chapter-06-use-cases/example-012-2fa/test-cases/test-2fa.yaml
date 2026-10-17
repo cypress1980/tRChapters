@@ -1,0 +1,11 @@
+# Suite: tR 2FA Use Case Chapter 6 - Example-012 (Qkz6BvTWGXAEwsi8a)
+# Test case name: "Test 2FA"
+customSteps: |
+  //open url "https://mail.google.com"
+  enter stored value "test-gmail" into "Email or Phone"
+  click "Next"
+  enter stored value "test-gmail-pass" into "Password"
+  click "Next"
+  generate PIN with google authenticator from stored value "MyQrCode" and save as "code"
+  enter stored value "code" into "Enter code"
+testCaseUuid: "6a983f3d-2c0e-45eb-ac0b-603ce2f571bf"

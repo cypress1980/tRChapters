@@ -1,0 +1,15 @@
+# Suite: tR Use Case Chapter 5 - Example-001 (pvfAWs4hFkNdEKMEe)
+# Test case name: "Verify That a Logged-In User Can Successfully Transfer Funds Between Two Owned Accounts and See Updated Balances"
+customSteps: |
+  login
+  click "Open New Account"
+  click "Open New Account" roughly on the right of "Request Loan"
+  click "Accounts Overview"
+  grab values from table "Accounts Overview" at second row and column "Balance" and save it as "savingsBalance"
+  click "Transfer Funds"
+  enter saved value "savingsBalance" into "Amount"
+  click "Request Loan"
+  enter saved value "savingsBalance" into "Loan Amount:"
+  enter saved value "savingsBalance" into "Down Payment:"
+labels: [generated-by-ai]
+testCaseUuid: "aa2fc6e1-1cda-4a42-beea-e11541c338ba"

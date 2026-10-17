@@ -1,0 +1,45 @@
+# Suite: tR Use Case Chapter 2 - Example-004 (QukEEJfAJuy8nQraL)
+# Test case name: "add any samsung phone into the cart"
+customSteps: |
+  open url "https://www.bestbuy.com/"
+  click "Search"
+  click "Search"
+  reload
+  click "Search"
+  click "Search"
+  enter "samsung smartphones" into "Search Best Buy"
+  type enter
+  scroll down
+  click "Samsung - Galaxy S26 256GB (Unlocked) - Black"
+  go back
+  click "Best Selling" below the "Search all categories"
+  scroll down
+  click "Samsung - Galaxy A26 5G SM-A266U 128 GB Smartphone - 6.7\" Super AMOLED Full HD Plus 1080"
+  go back
+  click "Trade-in offer"
+  scroll down
+  click "See Details" below the "Samsung - Galaxy S26 256GB (Unlocked) - Black"
+  go back
+  scroll down
+  click "See Details" below the "Samsung - Galaxy S25 FE 128GB (Unlocked) - Jet Black"
+  go back
+  scroll up
+  scroll up
+  click "See Details" below the "Samsung - Galaxy A17 5G 128GB (Unlocked) - Black"
+  go back
+  scroll up
+  click "Samsung - Galaxy A17 5G 128GB (Unlocked) - Black"
+  triple click "The webpage at https://www.bestbuy.com/product/samsung-galaxy-a17-5g-128gb-unlocked-black/JJGRF3R2K5/sku/6665489 might be temporarily down or it may have moved permanently to a new web address."
+  click "The webpage at https://www.bestbuy.com/product/samsung-galaxy-a17-5g-128gb-unlocked-black/JJGRF3R2K5/sku/6665489 might be temporarily down or it may have moved permanently to a new web address."
+  reload
+  go back
+  middle click "See Details" below the "Samsung - Galaxy A17 5G 128GB (Unlocked) - Black"
+  switch to tab 2
+  switch to tab 1
+  go back
+  click "Recently Viewed"
+  click "Samsung - Galaxy A17 5G 128GB (Unlocked) - Black featured product" using ai
+  scroll down
+  scroll down
+  scroll up
+testCaseUuid: "18eb04a4-0ee5-4338-add1-cee7e1293c38"

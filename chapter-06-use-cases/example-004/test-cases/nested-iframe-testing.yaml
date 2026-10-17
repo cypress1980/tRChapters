@@ -1,0 +1,7 @@
+# Suite: tR Use Case Chapter 6 - Example-004 (Kr4k5RqfEZemCng2Y)
+# Test case name: "Nested iframe testing"
+customSteps: |
+  click "Nested Iframe"
+  click "CLICK ME"
+  check that page contains "Button Clicked"
+testCaseUuid: "45c7fed6-8ba5-4839-8783-02354f4fb9fe"

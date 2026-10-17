@@ -1,0 +1,21 @@
+# Suite: R Use Case Chapter 5 - Example-004 (9HQBypJGP4e3oydMP)
+# Test case name: "Registration and Login"
+customSteps: |
+  // click "continue" button
+  // generate unique name, then enter into "First Name" and save as "generatedFirstName"
+  // generate unique name, then enter into "Last Name" and save as "generatedLastName"
+  // generate from template "#####@yopmail.com", then enter into "E-mail" and save as "generatedEmail"
+  // generate from template "##########", then enter into "Telephone" and save as "generatedPhone"
+  // enter "Test@#12345" into "Password"
+  // enter "Test@#12345" into "Password Confirm"
+  // enter "1" into checkbox "Privacy Policy"
+  // click "continue" button
+  // click "Logout" button
+  // click "Login" button
+  // enter stored value "generatedEmail" into "E-Mail Address"
+  // enter "Test@#12345" into "Password"
+  registration
+  click "Login" near "Forgotten Password"
+  check that page contains "My Affiliate Account"
+labels: [registration]
+testCaseUuid: "c4e8091a-1fee-4e51-8c1d-5a3c8b311962"

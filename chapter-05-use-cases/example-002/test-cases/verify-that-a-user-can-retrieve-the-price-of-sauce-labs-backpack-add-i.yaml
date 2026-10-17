@@ -1,0 +1,23 @@
+# Suite: tR Use Case Chapter 5 - Example-002 (gX6ZGxP2KZxhv7xWa)
+# Test case name: "Verify that a user can retrieve the price of Sauce Labs Backpack, add it to the cart, complete the purchase order, and successfully log out of the ecommerce application"
+customSteps: |
+  login
+  check that page contains stored value "ProductValue" below the "Sauce Labs Backpack"
+  click "Add to cart" below the "Sauce Labs Backpack"
+  check that page contains stored value "ProductValue" below the "Sauce Labs Backpack"
+  click button roughly above the "Name (A to Z)"
+  click "Checkout"
+  generate from regex "[a-z]{10,18}", then enter into "First Name" and save as "FirstName"
+  enter saved value "FirstName" into "First Name"
+  enter stored value "LastName" into "Last Name"
+  enter stored value "ZipCode" into "Zip/Postal Code"
+  click "Continue button" using ai
+  scroll down
+  click "Finish button" using ai
+  check that page contains "Thank you for your order!"
+  scroll up
+  click "Open Menu"
+  click "Logout"
+  check that page contains "Login"
+labels: [generated-by-ai]
+testCaseUuid: "37be189c-2af2-47a9-80f7-70bff298d123"

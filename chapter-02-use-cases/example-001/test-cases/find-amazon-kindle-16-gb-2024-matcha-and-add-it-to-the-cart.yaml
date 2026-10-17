@@ -1,0 +1,10 @@
+# Suite: tR Use Case Chapter 2 - Example-001 (jWwko9ksyc6RQT7pZ)
+# Test case name: "Find Amazon - Kindle (16 GB) - 2024 - Matcha and add it to the cart"
+customSteps: |
+  click "Search"
+  enter "Amazon Kindle 16 GB 2024" into "Search Best Buy"
+  type enter
+  click "Amazon - Kindle (16 GB) - 2024 - Matcha product (non-sponsored)" using ai
+  go back
+labels: [generated-by-ai]
+testCaseUuid: "1c2090a1-0737-4a48-b5db-277e9f3059da"

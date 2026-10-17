@@ -1,0 +1,18 @@
+# Suite: tR Use Case Chapter 2 - Example-004 (QukEEJfAJuy8nQraL)
+# Test case name: "add any samsung phone into the cart"
+customSteps: |
+  open url "https://www.amazon.com/"
+
+  click "Continue shopping"
+  enter "samsung smartphones" into "Search Amazon"
+  type enter
+  click "Galaxy S26 Ultra product title" using ai
+  scroll down
+  scroll up
+  scroll down
+  scroll up with the mouse
+  click "Add to cart button" using ai
+  click "No thanks"
+  click "Go to Cart"
+  check that page contains "Samsung Galaxy S26 Ultra"
+testCaseUuid: "4a3b35a3-ff50-4f36-9b7a-a48a93441bb4"

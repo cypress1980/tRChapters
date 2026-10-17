@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 6 - Example-001 (c4zZsFYTRQ39o26wC)
+# Test case name: "Create a New Record"
+customSteps: |
+  enter "Kailash Pathak" into "Name"
+  enter "Belgium" into "Country"
+  click "Add Record"
+  enter "Belgium" into "Search"
+  check that table at row "1" and column "Name" contains "Kailash Pathak"
+
+  // click "Edit" within the context of table at row containing "John Doe" and column "Actions"
+  // enter "" within the context of table at row containing "John Doe" and column "Name"
+  // enter "John Walker" within the context of table at row containing "John Doe" and column "Name"
+  // enter "" within the context of table at row containing "John Doe" and column "Country"
+  // enter "Canada" within the context of table at row containing "John Doe" and column "Country"
+  // click "Save" within the context of table at row containing "John Walker" and column "Actions"
+  // check that table at row containing "John Walker" and column "Country" contains "Canada"
+testCaseUuid: "2dfcccfd-9926-496c-b660-0638aec10aff"

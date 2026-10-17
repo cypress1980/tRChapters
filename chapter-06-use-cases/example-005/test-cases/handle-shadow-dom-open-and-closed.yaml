@@ -1,0 +1,10 @@
+# Suite: tR Use Case Chapter 6 - Example-005 (cwvFYEiRixJtWo9dz)
+# Test case name: "Handle Shadow DOM (Open and Closed)"
+customSteps: |
+  scroll down until page contains exactly "Shadow DOM"
+  enter "Kailash" into "enter name"
+  enter "Dominos" into "Enter pizza name"
+  enter "New" into input "Does DevTools" using AI
+  click "enter password" using AI
+  type "testRigor@123"
+testCaseUuid: "fe4293ef-7b1d-4caa-9eb3-fe27adaa7322"

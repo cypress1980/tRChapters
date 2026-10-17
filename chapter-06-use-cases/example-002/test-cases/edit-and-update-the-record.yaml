@@ -1,0 +1,11 @@
+# Suite: 0 tR Use Case Chapter 6 - Example-002 (zXxr5GrqfxXLZjjqy)
+# Test case name: "Edit and Update the record"
+customSteps: |
+  click "Edit" within the context of table at row containing "John Doe" and column "Actions"
+  enter "John Walker" into 1st input within the context of 1st table on row containing "John Doe" and column "Name"
+  enter "Canada" into 1st input within the context of 1st table on row containing "USA" and column "Country"
+  click "Save" within the context of 1st table on row containing "John Walker" and column "Actions"
+  click "Delete" within the context of table at row containing "John Walker" and column "Actions"
+
+  //check that table with "Name" equal to "Rahul Sharma" and "Country" equal to "India" at column "ID" contains "3"
+testCaseUuid: "20ffefe4-2025-487d-a1e6-b44fea564d89"

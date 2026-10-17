@@ -1,0 +1,17 @@
+# Suite: tR Use Case Chapter 5 - Example-003 (qHzgqE9JFQQ9R4PXn)
+# Test case name: "Signup into Bestbuy"
+customSteps: |
+  click "Sign In" using ai
+  click "Create Account" using ai
+  generate from regex "[a-z]{10,18}", then enter into "First Name" and save as "FirstName"
+  generate from regex "[A-Z]{10,18}", then enter into "Last Name" and save as "LastName"
+  generate from template "$*******@yahoo.com" and save as "newEmail"
+  enter stored value "newEmail" into "Email Address"
+  generate from template "$***********" and save as "password"
+  enter stored value "password" into "Password field"
+  enter stored value "password" into "Confirm Password"
+  generate from template "###-###-####", then enter into "Mobile Phone Number"
+  click "Upper and lowercase letters"
+  scroll down
+  click "Create an Account button" using ai
+testCaseUuid: "0dfd0fe4-ba1c-454f-8249-dabb981663b9"

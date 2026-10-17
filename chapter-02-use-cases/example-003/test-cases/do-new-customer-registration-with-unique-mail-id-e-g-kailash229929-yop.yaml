@@ -1,0 +1,15 @@
+# Suite: tR Use Case Chapter 2 - Example-003 (hpDJ8KQZNSpuFjQv7)
+# Test case name: "Do New Customer Registration with unique mail id e.g kailash229929@yopmail.com"
+customSteps: |
+  click "Continue"
+  enter "John" into "First Name"
+  enter "Doe" into "Last Name"
+  enter "johndoe_test123333334@testrigor-mail.com" into "E-Mail"
+  enter "1234567890" into "Telephone"
+  enter "Test@12345" into "Password"
+  enter "Test@12345" into "Password Confirm"
+  click "Privacy Policy checkbox" using ai
+  click "Continue button" using ai
+  check that page contains "Congratulations"
+labels: [generated-by-ai]
+testCaseUuid: "30a3244a-3ddd-4053-8940-d4997891c5e2"
