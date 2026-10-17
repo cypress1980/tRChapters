@@ -17,19 +17,54 @@ the link.
 
 Each chapter directory has its own README describing what the suites cover.
 
-## Suite IDs — Chapters 8 and 9
+## All suites
 
-| Chapter | Suite | Suite ID | Platform | Tests |
-|---|---|---|---|---|
-| 8 | tR Android Mobile Automation | `GmDZSeAYdYSDLkSRc` | `ANDROID_30_X86_ULTRA` | 1 |
-| 8 | tR Android Mobile Automation Example -01 | `E6xmsGLoubPG6god8` | `ANDROID_36_X86_64_PIXEL_9` | 1 |
-| 8 | tR Android Mobile Automation Example -02 | `MkwytBxehMhocoqap` | `ANDROID_35_X86_64_PIXEL_3A` | 1 |
-| 8 | tR iOs Mobile Automation Example -03 | `cwHukcm4M9fp6Hkpd` | `IOS_17_5_X86_64_IPHONE_15_PRO` | 2 |
-| 8 | tR iOS Mobile Automation Example -04 | `krQLaLXFXKTYS3o4N` | `IOS_27_0_ARM64_IPHONE_17_PRO_MAX` | 1 |
-| 8 | tR iOS Mobile Automation Example -05 | `MS56ps8p2r4HN2wFR` | `IOS_17_0_ARM64_IPHONE_XR` | 1 |
-| 9 | tR API Automation Example -01 | `4mzAaC3mbavKAWKQk` | `WebDesktopChrome` | 10 |
+<!-- suite-table:start -->
+| Ch | Suite name in testRigor | Suite ID | Directory | Tests | Platform |
+|---|---|---|---|---|---|
+| 2 | tR Use Case Chapter 2 - Example-001 | `jWwko9ksyc6RQT7pZ` | `chapter-02-use-cases/example-001/` | 10 | WebDesktopChrome |
+| 2 | tR Use Case Chapter 2 - Example-002 | `wfGesuhM5Desq5NGG` | `chapter-02-use-cases/example-002/` | 4 | WebDesktopChrome |
+| 2 | tR Use Case Chapter 2 - Example-003 | `hpDJ8KQZNSpuFjQv7` | `chapter-02-use-cases/example-003/` | 2 | WebDesktopChrome |
+| 2 | tR Use Case Chapter 2 - Example-004 | `QukEEJfAJuy8nQraL` | `chapter-02-use-cases/example-004/` | 5 | WebDesktopChrome |
+| 4 | tR Use Case Chapter 4 - Example-001 | `RQdpveizyyDSXfLdx` | `chapter-04-use-cases/example-001/` | 2 | WebDesktopChrome |
+| 4 | tR Use Case Chapter 4 - Example-002 | `CfKauFmQ4o3eaFD28` | `chapter-04-use-cases/example-002/` | 2 | WebDesktopChrome |
+| 4 | tR Use Case Chapter 4 - Example-003 | `HvptojZKfhoe6q4p8` | `chapter-04-use-cases/example-003/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-001 | `pvfAWs4hFkNdEKMEe` | `chapter-05-use-cases/example-001/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-002 | `gX6ZGxP2KZxhv7xWa` | `chapter-05-use-cases/example-002/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-003 | `qHzgqE9JFQQ9R4PXn` | `chapter-05-use-cases/example-003/` | 2 | WebDesktopChrome |
+| 5 | R Use Case Chapter 5 - Example-004 | `9HQBypJGP4e3oydMP` | `chapter-05-use-cases/example-004/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-005 | `StJBByQnwDMShWv9N` | `chapter-05-use-cases/example-005/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-006 | `TMLXZYchBjReHqFQv` | `chapter-05-use-cases/example-006/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-007 | `HGWCDwqZWaxZQktxh` | `chapter-05-use-cases/example-007/` | 4 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-008 | `8NWAvPRkndXvKXCzH` | `chapter-05-use-cases/example-008/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-009 | `DxfM2bgfs4KRZD5bK` | `chapter-05-use-cases/example-009/` | 1 | WebDesktopChrome |
+| 5 | tR Use Case Chapter 5 - Example-010 | `5yjnbXirPTzCuvcNX` | `chapter-05-use-cases/example-010/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-001 | `c4zZsFYTRQ39o26wC` | `chapter-06-use-cases/example-001/` | 1 | WebDesktopChrome |
+| 6 | 0 tR Use Case Chapter 6 - Example-002 | `zXxr5GrqfxXLZjjqy` | `chapter-06-use-cases/example-002/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-003 | `mc3KrJxYt2LNcXMZE` | `chapter-06-use-cases/example-003/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-004 | `Kr4k5RqfEZemCng2Y` | `chapter-06-use-cases/example-004/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-005 | `cwvFYEiRixJtWo9dz` | `chapter-06-use-cases/example-005/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-006 | `Y7ma5xWyBcfD9xj3N` | `chapter-06-use-cases/example-006/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-007 | `jWPqwkWaeW8dn83qa` | `chapter-06-use-cases/example-007/` | 2 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-008 | `DLpr9ptodoc2HyvWD` | `chapter-06-use-cases/example-008/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-009 | `FfW3veHbkuhcf5T3f` | `chapter-06-use-cases/example-009/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-010 | `dNouyaBj4PW3tbdji` | `chapter-06-use-cases/example-010/` | 1 | WebDesktopChrome |
+| 6 | tR Use Case Chapter 6 - Example-011 | `8wqktf2nQ9cqnkwyE` | `chapter-06-use-cases/example-011/` | 1 | WebDesktopChrome |
+| 6 | tR 2FA Use Case Chapter 6 - Example-012 | `Qkz6BvTWGXAEwsi8a` | `chapter-06-use-cases/example-012-2fa/` | 2 | WebDesktopChrome |
+| 6 | tR Use Case Audio Recording Chapter 6 - Example-013 | `WfzKodW6pQZNgmk7t` | `chapter-06-use-cases/example-013-audio-recording/` | 2 | WebDesktopChrome |
+| 6 | tR Use Case Audio Recording Chapter 6 - Example-014 | `QSTemnBXhTYJakPac` | `chapter-06-use-cases/example-014-audio-recording/` | 1 | WebDesktopChrome |
+| 8 | tR Android Mobile Automation | `GmDZSeAYdYSDLkSRc` | `chapter-08-mobile-automation/android-base/` | 1 | `ANDROID_30_X86_ULTRA` |
+| 8 | tR Android Mobile Automation Example -01 | `E6xmsGLoubPG6god8` | `chapter-08-mobile-automation/android-example-01/` | 1 | `ANDROID_36_X86_64_PIXEL_9` |
+| 8 | tR Android Mobile Automation Example -02 | `MkwytBxehMhocoqap` | `chapter-08-mobile-automation/android-example-02/` | 1 | `ANDROID_35_X86_64_PIXEL_3A` |
+| 8 | tR iOs Mobile Automation Example -03 | `cwHukcm4M9fp6Hkpd` | `chapter-08-mobile-automation/ios-example-03/` | 2 | `IOS_17_5_X86_64_IPHONE_15_PRO` |
+| 8 | tR iOS Mobile Automation Example -04 | `krQLaLXFXKTYS3o4N` | `chapter-08-mobile-automation/ios-example-04/` | 1 | `IOS_27_0_ARM64_IPHONE_17_PRO_MAX` |
+| 8 | tR iOS Mobile Automation Example -05 | `MS56ps8p2r4HN2wFR` | `chapter-08-mobile-automation/ios-example-05/` | 1 | `IOS_17_0_ARM64_IPHONE_XR` |
+| 9 | tR API Automation Example -01 | `4mzAaC3mbavKAWKQk` | `chapter-09-api-automation/` | 10 | WebDesktopChrome |
+| — | tR Use Case Chapter Wise | `ATurjEWGS499niuWP` | `chapter-wise/` | 6 | WebDesktopChrome |
+<!-- suite-table:end -->
 
-IDs for Chapters 2, 4, 5, 6 and Chapter Wise are in each chapter's README.
+Regenerate this table with `python3 .tools/gen_suite_table.py` after changing
+`.tools/suites.json`; the counts are read from disk, not maintained by hand.
 
 ## Layout
 
