@@ -1,6 +1,6 @@
 # Chapter Wise
 
-Suite `ATurjEWGS499niuWP` — 6 cases accumulated against
+Suite [`ATurjEWGS499niuWP`](https://app.testrigor.com/test-suites/ATurjEWGS499niuWP/test-cases) — 6 cases accumulated against
 `shop.qaautomationlabs.com`, the running example for end-to-end checkout.
 
 The full flow (`86c7da12…`) logs in with `demo@demo.com` / `demo`, shops from the

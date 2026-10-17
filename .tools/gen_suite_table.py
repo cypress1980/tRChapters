@@ -28,10 +28,13 @@ def count(dest):
 
 rows = sorted(SUITES, key=lambda r: (chapter_of(r[2]) == "—", chapter_of(r[2]).zfill(2), r[2]))
 
+APP = "https://app.testrigor.com/test-suites/{}/test-cases"
+
 out = ["| Ch | Suite name in testRigor | Suite ID | Directory | Tests | Platform |",
        "|---|---|---|---|---|---|"]
 for sid, name, dest in rows:
-    out.append(f"| {chapter_of(dest)} | {name} | `{sid}` | `{dest}/` | {count(dest)} "
+    link = f"[`{sid}`]({APP.format(sid)})"
+    out.append(f"| {chapter_of(dest)} | {name} | {link} | `{dest}/` | {count(dest)} "
                f"| {'`'+PLATFORM[sid]+'`' if sid in PLATFORM else 'WebDesktopChrome'} |")
 table = "\n".join(out)
 

@@ -4,9 +4,9 @@ Reading values off the page, reshaping them, and feeding them back in.
 
 | Directory | Suite ID | Tests |
 |---|---|---|
-| `example-001/` | `RQdpveizyyDSXfLdx` | 2 |
-| `example-002/` | `CfKauFmQ4o3eaFD28` | 2 |
-| `example-003/` | `HvptojZKfhoe6q4p8` | 1 |
+| `example-001/` | [`RQdpveizyyDSXfLdx`](https://app.testrigor.com/test-suites/RQdpveizyyDSXfLdx/test-cases) | 2 |
+| `example-002/` | [`CfKauFmQ4o3eaFD28`](https://app.testrigor.com/test-suites/CfKauFmQ4o3eaFD28/test-cases) | 2 |
+| `example-003/` | [`HvptojZKfhoe6q4p8`](https://app.testrigor.com/test-suites/HvptojZKfhoe6q4p8/test-cases) | 1 |
 
 ## What each shows
 

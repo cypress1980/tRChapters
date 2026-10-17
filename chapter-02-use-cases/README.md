@@ -5,10 +5,10 @@ sites (Amazon, Best Buy) rather than a controlled demo app.
 
 | Directory | Suite ID | Tests | Focus |
 |---|---|---|---|
-| `example-001/` | `jWwko9ksyc6RQT7pZ` | 10 | product search, add to cart, form validation |
-| `example-002/` | `wfGesuhM5Desq5NGG` | 4 | Apple Watch / Kindle search, guest checkout |
-| `example-003/` | `hpDJ8KQZNSpuFjQv7` | 2 | new customer registration |
-| `example-004/` | `QukEEJfAJuy8nQraL` | 5 | Samsung phone search across two retailers |
+| `example-001/` | [`jWwko9ksyc6RQT7pZ`](https://app.testrigor.com/test-suites/jWwko9ksyc6RQT7pZ/test-cases) | 10 | product search, add to cart, form validation |
+| `example-002/` | [`wfGesuhM5Desq5NGG`](https://app.testrigor.com/test-suites/wfGesuhM5Desq5NGG/test-cases) | 4 | Apple Watch / Kindle search, guest checkout |
+| `example-003/` | [`hpDJ8KQZNSpuFjQv7`](https://app.testrigor.com/test-suites/hpDJ8KQZNSpuFjQv7/test-cases) | 2 | new customer registration |
+| `example-004/` | [`QukEEJfAJuy8nQraL`](https://app.testrigor.com/test-suites/QukEEJfAJuy8nQraL/test-cases) | 5 | Samsung phone search across two retailers |
 
 ## Reading these
 

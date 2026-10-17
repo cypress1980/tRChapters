@@ -1,6 +1,6 @@
 # Chapter 9 — API Automation
 
-Suite `4mzAaC3mbavKAWKQk` (`WebDesktopChrome`) — 10 test cases, building from a bare
+Suite [`4mzAaC3mbavKAWKQk`](https://app.testrigor.com/test-suites/4mzAaC3mbavKAWKQk/test-cases) (`WebDesktopChrome`) — 10 test cases, building from a bare
 GET up to mocking a response and feeding it into a UI flow.
 
 | File | Covers |

@@ -6,12 +6,12 @@ one suite.
 
 | Directory | Suite ID | Device |
 |---|---|---|
-| `android-base/` | `GmDZSeAYdYSDLkSRc` | Android 30, Ultra |
-| `android-example-01/` | `E6xmsGLoubPG6god8` | Android 36, Pixel 9 |
-| `android-example-02/` | `MkwytBxehMhocoqap` | Android 35, Pixel 3a |
-| `ios-example-03/` | `cwHukcm4M9fp6Hkpd` | iOS 17.5, iPhone 15 Pro |
-| `ios-example-04/` | `krQLaLXFXKTYS3o4N` | iOS 27, iPhone 17 Pro Max |
-| `ios-example-05/` | `MS56ps8p2r4HN2wFR` | iOS 17, iPhone XR |
+| `android-base/` | [`GmDZSeAYdYSDLkSRc`](https://app.testrigor.com/test-suites/GmDZSeAYdYSDLkSRc/test-cases) | Android 30, Ultra |
+| `android-example-01/` | [`E6xmsGLoubPG6god8`](https://app.testrigor.com/test-suites/E6xmsGLoubPG6god8/test-cases) | Android 36, Pixel 9 |
+| `android-example-02/` | [`MkwytBxehMhocoqap`](https://app.testrigor.com/test-suites/MkwytBxehMhocoqap/test-cases) | Android 35, Pixel 3a |
+| `ios-example-03/` | [`cwHukcm4M9fp6Hkpd`](https://app.testrigor.com/test-suites/cwHukcm4M9fp6Hkpd/test-cases) | iOS 17.5, iPhone 15 Pro |
+| `ios-example-04/` | [`krQLaLXFXKTYS3o4N`](https://app.testrigor.com/test-suites/krQLaLXFXKTYS3o4N/test-cases) | iOS 27, iPhone 17 Pro Max |
+| `ios-example-05/` | [`MS56ps8p2r4HN2wFR`](https://app.testrigor.com/test-suites/MS56ps8p2r4HN2wFR/test-cases) | iOS 17, iPhone XR |
 
 ## What each suite covers
 
