@@ -1,4 +1,4 @@
-# tRChapters : testRigor
+# tRChapters : testRigor new
 
 Every chapter test suite from testRigor, exported and kept under version control.
 **80 test cases across 39 suites.** Each `.yaml` file is one remote test case,
